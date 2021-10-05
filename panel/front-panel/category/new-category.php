@@ -15,18 +15,21 @@ include_once '../functions/functions.php';
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>افزودن دسته جدید</title>
-        <link rel="stylesheet" href="../../css/owl.carousel.min.css">
-        <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="../../css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../css/style.css">
 
 
     </head>
     <body>
-    <p class="title-form">افزودن دسته جدید</p>
-    <form class="my-form" method="post" enctype="multipart/form-data">
+    <div style="background: #ffffff;padding: 5%;box-shadow: inset 0 0 0px 0 rgb(33 33 33), 0 0px 20px 0 rgb(33 33 33);    position: relative;
+    top: 165px;
+    left: 15px;">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-1">
+            </div>
+
+            <div class="col-md-9" style="margin-right: 46px;">
+    <form class="my-form" method="post" enctype="multipart/form-data">
+        <p class="title-form">افزودن دسته جدید</p>
+
 
                 <input class="form-control inputbig" type="text" name="info[title]" placeholder="عنوان را اینجا وارد کنید" required>
                 <br>
@@ -40,7 +43,7 @@ include_once '../functions/functions.php';
                         <option value="<?php echo $val->id;?>>"><?php echo $val->title;?></option>
                     <?php endforeach;?>
                 </select><br>
-                <div class="custom-control custom-switch">
+                <div class="custom-control custom-switch" style="    direction: initial;">
                     <input name="info[status]" type="checkbox" class="custom-control-input" id="customSwitch1" checked >
                     <label class="custom-control-label" for="customSwitch1">فعال|غیرفعال</label>
                 </div><br> <hr>
@@ -50,5 +53,7 @@ include_once '../functions/functions.php';
 
         </div>
     </form>
+        </div>
+    </div>
     </body>
     </html>
