@@ -10,8 +10,12 @@
 </head>
 <body>
 
-<div style="background: black;     position: relative;
-    width: 1036px;    top: 123px;">
+<div style="    background: black;
+    position: relative;
+    width: 1253px;
+    top: 165px;
+    left: -85px;
+padding: 90px;">
 <div class="container">
     <div class="row" style="    position: relative;
     top: 22px;">

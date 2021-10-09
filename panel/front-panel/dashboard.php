@@ -160,8 +160,18 @@ if(isset($_GET['page'])){
         case 'edit-category':
             include_once 'category/edit-category.php';
             break;
-
-
+        case 'add-article':
+            include_once 'article/add-article.php';
+            break;
+        case 'list-article':
+            include_once 'article/list-article.php';
+            break;
+        case 'edit-article':
+            include_once 'article/edit-article.php';
+            break;
+        case 'delete-article':
+            include_once 'article/delete-article.php';
+            break;
     }
 }
 else{

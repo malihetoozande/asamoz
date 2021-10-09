@@ -110,6 +110,28 @@ include_once '../functions/functions.php';
 
                         </ul>
 
+                        <li class="article">
+                            <a href="javascript:;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                                    <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                                    <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"></path>
+                                </svg>
+                                مدیریت نوشته ها
+                                <span style="float: left;">
+                                <svg class="bi bi-chevron-down" width="1em" height="1em" viewBox="0 0 20 20"
+                                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                      d="M3.646 6.646a.5.5 0 01.708 0L10 12.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z"
+                                      clip-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                            </a>
+                        </li>
+                        <ul class="sub-article">
+                            <li><a href="#">مشاهده همه نظرات کاربران</a></li>
+                            <li><a href="#">افزودن نوشته جدید</a></li>
+                        </ul>
+
 
 
 
@@ -118,7 +140,7 @@ include_once '../functions/functions.php';
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-inboxes-fill" viewBox="0 0 16 16">
                                     <path d="M4.98 1a.5.5 0 0 0-.39.188L1.54 5H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0A.5.5 0 0 1 10 5h4.46l-3.05-3.812A.5.5 0 0 0 11.02 1H4.98zM3.81.563A1.5 1.5 0 0 1 4.98 0h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 10H1.883A1.5 1.5 0 0 1 .394 8.686l-.39-3.124a.5.5 0 0 1 .106-.374L3.81.563zM.125 11.17A.5.5 0 0 1 .5 11H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0 .5.5 0 0 1 .5-.5h5.5a.5.5 0 0 1 .496.562l-.39 3.124A1.5 1.5 0 0 1 14.117 16H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .121-.393z"></path>
                                 </svg>
-مدیریت امور مالی
+مدیریت نوشته ها
 <span style="float: left;">
                                 <svg class="bi bi-chevron-down" width="1em" height="1em" viewBox="0 0 20 20"
                                      fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -130,9 +152,9 @@ include_once '../functions/functions.php';
                             </a>
                         </li>
                         <ul class="sub-cost">
-                            <li><a href="dashboard.php?page=ac-Financial documents">پیکربندی اسناد مالی</a></li>
-                            <li><a href="dashboard.php?page=ac-payment system">سیستم جامع پرداخت</a></li>
-                            <li><a href="dashboard.php?page=ac-reports">گزارشات امور مالی</a></li>
+                            <li><a href="dashboard.php?page=list-article">مشاهده همه نظرات کاربران</a></li>
+                            <li><a href="dashboard.php?page=add-article">افزودن نوشته جدید</a></li>
+
                         </ul>
 
 
